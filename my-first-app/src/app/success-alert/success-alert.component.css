@@ -1,0 +1,14 @@
+h4 {
+    color: green
+}
+
+p {
+    color: coral
+}
+
+.container {
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 2px;
+    width: max-content;
+}
