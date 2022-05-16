@@ -1,1 +1,2 @@
-<p> Server with ID - {{ id }} is {{ getServerStatus() }} </p>
+<p [ngStyle]="{color: getColor()}" [ngClass]="{online: status === 'Online'}"> Server with ID #{{ id }} is
+  {{ getServerStatus() }} </p>
