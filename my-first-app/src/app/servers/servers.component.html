@@ -1,9 +1,0 @@
-<label>Server Name</label>
-<!-- if you use $event you can access the event in the component.ts file -->
-<!-- <input type="text" class="form-control" (input)="onUpdateServerName($event)"> -->
-<input type="text" class="form-control" [(ngModel)]="serverName">
-<br />
-<button class="btn btn-primary" [disabled]="!allowNewServer" (click)="onCreateServer()">Add Server</button>
-<br />&nbsp;
-<p *ngIf="serverCreationStatus"> {{ serverCreationStatus }} </p>
-<app-server *ngFor="let server of servers"></app-server>
